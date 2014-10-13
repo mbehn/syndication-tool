@@ -33,7 +33,9 @@
 									<select id="retailer">
 										<option value="bjs.com">BJ's</option>
 										<option value="btosports.com">BTO Sports</option>
+										<option value="cpooutlets.com">CPO Outlets</option>
 										<option value="gandermountain.com">Gander Mountain</option>
+										<option value="hayneedle.com">hayneedle.com</option>
 										<option value="officesupply.com">officesupply.com</option>
 										<option value="staples.com">Staples</option>
 										<option value="toysrus.com">Toys-R-Us</option>
