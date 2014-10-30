@@ -33,6 +33,7 @@
                                     <select id="retailer">
                                         <option value="abt.com">ABT Electronics</option>
                                         <option value="adorama.com">Adorama</option>
+                                        <option value="acehardware.com">Ace Hardware</option>
                                         <option value="beachaudio.com">Beach Audio</option>
                                         <option value="bjs.com">BJ's</option>
                                         <option value="btosports.com">BTO Sports</option>
