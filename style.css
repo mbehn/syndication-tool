@@ -6,12 +6,13 @@ a:hover {text-decoration: none;}
 
 
 #container {width:800px; margin: 0 auto;}
-	#application-wrapper {border-radius:3px; background-color: #F5F5F5; position: relative; top:100px; height:300px; box-shadow: 5px 5px 28px;}
-		#application-header {color:#149e7d; top:40px; left: 80px; position: inherit; letter-spacing: 2px}
+	#application-wrapper {border-radius:3px; background-color: #F5F5F5; position: relative; top:100px; height:400px; box-shadow: 5px 5px 28px;}
+		h1, h2 {color:#149e7d; position: inherit; letter-spacing: 2px}
 
-#application-search-tool {position:relative; top:50px; left:75px;}
-#submit	{padding: 10px;top: 15px;position: relative; background-color: white;color:black; transition: .2s; border-radius: 20px; box-shadow: 2px 2px 20px black; text-align:center; color:#149e7d}
-	#submit:hover {background-color:#149e7d; color:white; cursor: hand; letter-spacing: 1px;}
+#application-search-tool-google {position:relative; top:50px; left:75px;}
+#application-search-tool-site {position:relative; top:100px; left:75px;}
+#submit, #submit-site	{padding: 10px;top: 15px;position: relative; background-color: white;color:black; transition: .2s; border-radius: 20px; box-shadow: 2px 2px 20px black; text-align:center; color:#149e7d}
+	#submit:hover, #submit-site:hover {background-color:#149e7d; color:white; cursor: hand; letter-spacing: 1px;}
 
 .spacer {width:10px;}
 #retailer {border-radius: 0;}
