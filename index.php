@@ -38,6 +38,7 @@
                                         <option value="bjs.com">BJ's</option>
                                         <option value="btosports.com">BTO Sports</option>
                                         <option value="cpooutlets.com">CPO Outlets</option>
+                                        <option value="dillards.com">Dillard's</option>
                                         <option value="gandermountain.com">Gander Mountain</option>
                                         <option value="hayneedle.com">hayneedle.com</option>
                                         <option value="lordandtaylor.com">Lord and Taylor</option>
