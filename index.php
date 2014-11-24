@@ -7,6 +7,11 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
             <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
             <script src="submit.js"></script>
+            <script type="text/javascript">
+                test = function(json) {
+                    console.log(json.retailers);
+                }
+            </script>
         </head>
         <body>
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -41,6 +46,7 @@
                                         <option value="dillards.com">Dillard's</option>
                                         <option value="gandermountain.com">Gander Mountain</option>
                                         <option value="hayneedle.com">hayneedle.com</option>
+                                        <option value="holabirdsports.com">Holabird Sports</option>
                                         <option value="lordandtaylor.com">Lord and Taylor</option>
                                         <option value="officesupply.com">officesupply.com</option>
                                         <option value="pcrichard.com">PC Richard</option>
@@ -105,5 +111,8 @@
                     </div> -->
                 </div>
             </div>
+            <script type="text/javascript" src="retailers.json">
+
+            </script>
         </body>
     </html>

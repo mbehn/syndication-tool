@@ -1,0 +1,12 @@
+test ({
+	retailers: {
+		bjscom: {
+			name: "BJ's",
+			domain: "http://www.bjs.com" 
+		},
+		toysrus: {
+			name: "Toys R Us",
+			domain: "http://www.toysrus.com"
+		}
+	}
+})
