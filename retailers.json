@@ -1,12 +1,25 @@
-test ({
-	retailers: {
-		bjscom: {
-			name: "BJ's",
-			domain: "http://www.bjs.com" 
-		},
-		toysrus: {
-			name: "Toys R Us",
-			domain: "http://www.toysrus.com"
-		}
-	}
-})
+{
+	Retailers: [
+		{'name': 'ABT Electronics', 'domain': 'abt.com'},
+		{'name': 'Adorama', 'domain': 'adoramaAdorama'},
+		{'name': 'Ace Hardware', 'domain': 'acehardware.com'},
+		{'name': 'Beach Audio', 'domain': 'beachaudio.com'},
+		{'name': 'BJ\'s', 'domain': 'bjs.com'},
+		{'name': 'BTO Sports', 'domain': 'btosports.com'},
+		{'name': 'CPO Outlets', 'domain': 'cpooutlets.com'},
+		{'name': 'Dillard\'s', 'domain': 'dillards.com'},
+		{'name': 'Gander Mountain', 'domain': 'gandermountain.com'},
+		{'name': 'hayneedle\.com', 'domain': 'hayneedle.com'},
+		{'name': 'Holabird Sports', 'domain': 'holabirdsports.com'},
+		{'name': 'Lord and Taylor', 'domain': 'lordandtaylor.com'},
+		{'name': 'officesupply.com', 'domain': 'officesupply.com'},
+		{'name': 'PC Richard', 'domain': 'pcrichard.com'},
+		{'name': 'PGA Superstore', 'domain': 'pgatoursuperstore.com'},
+		{'name': 'Radio Shack', 'domain': 'radioshack.com'},
+		{'name': 'Rock Creek', 'domain': 'rockcreek.com'},
+		{'name': 'Staples', 'domain': 'staples.com'},
+		{'name': 'Toys\-R\-Us', 'domain': 'toysrus.com'},
+		{'name': 'Toys\-R\-Us Canada', 'domain': 'toysrus.ca'},
+		{'name': 'Ulta', 'domain': 'ulta.com'}
+		]
+}

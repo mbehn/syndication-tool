@@ -7,11 +7,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
             <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
             <script src="submit.js"></script>
-            <script type="text/javascript">
-                test = function(json) {
-                    console.log(json.retailers);
-                }
-            </script>
+            
         </head>
         <body>
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -48,6 +44,7 @@
                                         <option value="hayneedle.com">hayneedle.com</option>
                                         <option value="holabirdsports.com">Holabird Sports</option>
                                         <option value="lordandtaylor.com">Lord and Taylor</option>
+                                        <option value="medicalartspress.com">Medical Arts Supply</option>
                                         <option value="officesupply.com">officesupply.com</option>
                                         <option value="pcrichard.com">PC Richard</option>
                                         <option value="pgatoursuperstore.com">PGA Superstore</option>                                        
@@ -71,6 +68,7 @@
                                 <td id="logo"></td>
                             </tr>
                         </table>
+                        
                     </div>                    
                     <!-- <div id="application-search-tool-site">                        
                         <table cellspacing="10" id="search-tool" >
@@ -111,8 +109,21 @@
                     </div> -->
                 </div>
             </div>
-            <script type="text/javascript" src="retailers.json">
+            <!--<script type="text/javascript" src="retailers.json">
 
+             </script> -->
+             <script type="text/javascript">
+               function loadRetailers() {
+                        $.ajax({
+                            type:'GET',
+                            url:"http://localhost/~matt.behn/sandbox/syndication-tool/retailers.json",
+                            success:function(json) {
+                                console.log(json);
+                             },
+                            dataType:'jsonp'
+                        });
+                    };
+                    loadRetailers();
             </script>
         </body>
     </html>
