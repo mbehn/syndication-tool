@@ -50,6 +50,7 @@
                                         <option value="pgatoursuperstore.com">PGA Superstore</option>                                        
                                         <option value="radioshack.com">Radio Shack</option>
                                         <option value="rockcreek.com">Rock Creek</option>
+                                        <option value="shop.com">shop.com</option>
                                         <option value="staples.com">Staples</option>
                                         <option value="toysrus.com">Toys-R-Us</option>
                                         <option value="toysrus.ca">Toys-R-Us Canada</option>
